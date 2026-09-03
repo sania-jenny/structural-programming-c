@@ -1,3 +1,4 @@
+//infinte factorial
 #include<stdio.h>
 
 int main(){
@@ -7,7 +8,7 @@ int main(){
     printf("please enter your number : ");
     scanf("%d" ,&n);
     while(n<0){
-        printf("you have put a nagetive number . pleaase enter a positive number : ");
+        printf("you have put a nagetive number . pleaase enter a positive numbe r : ");
     }
     for(int i=1; i<=n ; i++){
         factorial=factorial*i;

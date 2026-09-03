@@ -1,4 +1,4 @@
-//find out vowel am=nd chonsonent
+//find out vowel and cons
 #include<stdio.h>
 int main(){
     char ch;

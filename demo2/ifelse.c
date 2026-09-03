@@ -3,7 +3,7 @@ int main(){
    int a,b,c;
 
    printf("enter your number :");
-   scanf("%d %d %d ", &a, &b, &c);
+   scanf("%d %d %d ", &a ,&b, &c);
 
   if(a>b && a>c){
       pritnf("%d is the biggest number ",a);}
