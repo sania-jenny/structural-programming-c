@@ -38,5 +38,19 @@ int main() {
 
     printFibonacci(n);
 
+    long long a = 0, b = 1, c;
+    if (n >= 1) {
+        if (n == 1) {
+            printf("The %dth Fibonacci number is: %lld\n", n, a);
+        } else {
+            for (int i = 3; i <= n; i++) {
+                c = a + b;
+                a = b;
+                b = c;
+            }
+            printf("The %dth Fibonacci number is: %lld\n", n, b);
+        }
+    }
+
     return 0;
 }

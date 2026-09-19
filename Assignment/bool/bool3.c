@@ -11,7 +11,7 @@ int main(){
     printf("%d\n" , france_fries_is_tasty==pizza_is_tasty);
     printf("%d\n" , france_fries_is_tasty >pizza_is_tasty);
     printf("%d\n" , france_fries_is_tasty >=pizza_is_tasty);
-      printf("%d\n" , france_fries_is_tasty<pizza_is_tasty);
+    printf("%d\n" , france_fries_is_tasty<pizza_is_tasty);
 
 
 
