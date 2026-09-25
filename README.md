@@ -62,12 +62,11 @@ foundation in computer science. The reasons are:
 ## Repository Structure
 
 ```
-├── Assignment/
-│   ├── <topic>/    # One folder per topic (bool, loop, pointer, array, string, ...)
-│   ├── project/    # Small projects and larger assignments
-│   └── .vscode/    # VS Code build configuration (GCC)
-├── .vscode/        # VS Code build configuration (GCC)
-└── README.md
+<topic>/           # One folder per topic, e.g. array, string, bool, loop,
+                   # pointer, switch, exercise
+project/           # Small projects and larger assignments
+.vscode/           # VS Code build configuration (GCC)
+README.md
 ```
 
 > This structure is intentionally open-ended. New folders and topics — such as
@@ -105,9 +104,9 @@ task in VS Code (`Ctrl+Shift+B`).
 
 ## Usage
 
-Browse the `Assignment/` directory and open any `.c` file to study its logic, then
-compile and run it to observe the output. Each topic folder groups related programs,
-so concepts build naturally on one another as the course advances.
+Browse any topic directory and open a `.c` file to study its logic, then compile and
+run it to observe the output. Each topic folder groups related programs, so concepts
+build naturally on one another as the course advances.
 
 ---
 
