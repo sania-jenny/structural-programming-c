@@ -17,6 +17,7 @@ int sum(int n){
 }
 int main(){
     int n=8;
+    fact(n);
 
     printf("the value is : %d",sum(n));
 
