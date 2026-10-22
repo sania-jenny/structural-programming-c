@@ -11,7 +11,7 @@ int main(){
     printf("%d\n",x);
     printf("%d\n",p);
     printf("%d\n",&x);
-    printf("%d\n",*p);
+    printf("%d\n",*p);//the value of the adress p pointing
      printf("%d\n",&p);
     printf("%d\n",&y);
 
